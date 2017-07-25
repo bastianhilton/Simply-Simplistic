@@ -1,0 +1,126 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+
+    
+    
+<style>
+    ul {
+        list-style-type: none;
+        margin-left: 35%;
+        float: left;
+        z-index: 2;
+        position: absolute;
+    }
+    li {
+        display: inline;
+        padding: 15px;
+        font-size: 25px;
+        z-index: 2;
+    }
+    ul a {
+        color: white;
+        text-decoration: none;
+        z-index: 2;
+    }
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .welcome-banner {
+        height: 50%;
+        background-color: pink;
+        border-bottom-right-radius: 100%;
+        border-bottom-left-radius: -100%;
+        margin-top: 0px !important;
+        opacity: 0.9;
+        z-index: 1;
+    }
+    .goodbye-banner {
+        height: 50%;
+        background-color: deeppink;
+        border-top-right-radius: 100%;
+        border-top-left-radius: -100%;
+        margin: 0px;
+        opacity: 0.9;
+    }
+    body {
+        background-color: hotpink;
+        margin: 0px;
+        background-image: url(abstrakt-tile.jpg);
+    }
+    button {
+        border: 0px;
+        color: red;
+        font-size: 58px;
+        float: right;
+        margin-right: 20px;
+        margin-top: 20%;
+        background: pink;
+        opacity: 0.8;
+        border-top-left-radius: 100%;
+    }
+    button a {
+        color: red;
+        text-decoration: none;
+    }
+    button a:hover {
+        color: palevioletred;
+    }
+    h1 {
+        color: white;
+        font-family: monospace;
+        margin-top: -30%;
+        font-size: 50px;
+        position: absolute;
+        margin-left: 30%;
+    }
+    @media screen and (max-width: 550px) {
+        h1 {
+        color: white;
+        font-family: monospace;
+        margin-top: -180% !important;
+        font-size: 50px;
+        position: absolute;
+        float: left;
+        left: -100px !important;
+    }
+    button {
+        border: 0px;
+        color: pink;
+        font-size: 58px;
+        float: right;
+        margin-top: 100%;
+        background: transparent;
+        opacity: 0.8;
+        margin-right: -5px;
+    }
+    button a {
+        color: lightsalmon;
+        text-decoration: none;
+    }
+    button a:hover {
+        color: palevioletred;
+    }
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <button><a href="#">enter</a></button>
+    <div class="welcome-banner">
+        
+    </div>
+    <div class="goodbye-banner">
+    </div>
+    <center><h1>The Pink Site</h1></center>
+</body>
+</html>
